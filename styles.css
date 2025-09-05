@@ -28,20 +28,26 @@ body {
     margin: 0;
 }
 
+#main {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-gap: 8px;
+}
+
 #mainBody {
     background-color: var(--colorBackground);
 
     margin: 0;
     padding: 0;
+
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-gap: 8px;
 }
 
 .main {
     margin-right: 8px;
     margin-top: 8px;
-
-    display: grid;
-    grid-template-rows: auto 1fr;
-    grid-gap: 8px;
 }
 
 .main.child {
@@ -49,4 +55,16 @@ body {
     
     padding: 12px;
     margin:0;
+}
+
+#dataBody{
+    background-color: var(--colorBackground);
+    
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-gap: 8px;
+}
+
+.data.child {
+    background-color: var(--colorPrimaryDarker);
 }
