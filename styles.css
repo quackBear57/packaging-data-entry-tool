@@ -1,0 +1,23 @@
+body {
+    --colorPrimary: #4787F5;
+    --colorAccent: #F5BD47;
+    --colorPrimaryDarker: #6280B5;
+    --colorPrimaryDarkest: #5F6878;
+    --colorAccent2: #9E8755;
+    --colorBackground: #4B473F;
+
+    background-color: var(--colorBackground);
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-gap: 8px;
+}
+
+.sidebar {
+    background-color: var(--colorAccent);
+}
+
+.main {
+    background-color: var(--colorPrimaryDarker);
+}
