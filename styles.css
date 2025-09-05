@@ -10,14 +10,35 @@ body {
     font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
     display: grid;
-    grid-template-columns: 50px 1fr;
+    grid-template-columns: auto 1fr;
     grid-gap: 8px;
+    height: 100vh;
+    margin: 0;
 }
 
 .sidebar {
+    margin-top: 8px;
+    margin-left: 8px;
     background-color: var(--colorAccent);
 }
 
+.sidebar.child {
+    padding: 12px;
+    margin: 0;
+}
+
 .main {
+    margin-right: 8px;
+    margin-top: 8px;
+
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-gap: 8px;
+}
+
+.main.child {
+    padding: 12px;
+    margin:0;
+
     background-color: var(--colorPrimaryDarker);
 }
