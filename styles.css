@@ -4,7 +4,7 @@ body {
     --colorPrimaryDarker: #6280B5;
     --colorPrimaryDarkest: #5F6878;
     --colorAccent2: #9E8755;
-    --colorBackground: #2D2B26;
+    --colorBackground: #2A2B2D;
 
     background-color: var(--colorBackground);
     font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
