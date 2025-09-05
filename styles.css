@@ -57,6 +57,16 @@ body {
     margin:0;
 }
 
+#progressBar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.progressItem {
+    width: 100px;
+    text-align: center;
+}
+
 #dataBody{
     background-color: var(--colorBackground);
     
