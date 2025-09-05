@@ -17,14 +17,22 @@ body {
 }
 
 .sidebar {
+    background-color: var(--colorAccent);
+
     margin-top: 8px;
     margin-left: 8px;
-    background-color: var(--colorAccent);
 }
 
 .sidebar.child {
     padding: 12px;
     margin: 0;
+}
+
+#mainBody {
+    background-color: var(--colorBackground);
+
+    margin: 0;
+    padding: 0;
 }
 
 .main {
@@ -37,8 +45,8 @@ body {
 }
 
 .main.child {
+    background-color: var(--colorPrimaryDarker);
+    
     padding: 12px;
     margin:0;
-
-    background-color: var(--colorPrimaryDarker);
 }
