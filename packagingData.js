@@ -3,8 +3,6 @@
 const fileInput = document.querySelector('#fileInput');
 fileInput.value = '';
 
-// fileInput.addEventListener('change', readFile);
-
 let fileContent = "";
 
 function readFile() {
@@ -36,7 +34,7 @@ function Bottle(name, isActive, lines, tpi, weight, width, depth, height,
         this.tpi = tpi;
         this.weight = weight; // in grams
         this.width = width; // in inches
-        this.depth = depth;
-        this.height = height;
-        this.heightPalletization = heightPalletization;
+        this.depth = depth; // in inches
+        this.height = height; // in inches
+        this.heightPalletization = heightPalletization; // in inches
 }
