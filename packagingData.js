@@ -26,15 +26,29 @@ loadDataButton.addEventListener('click', () => {
     readFile();
 })
 
-function Bottle(name, isActive, lines, tpi, weight, width, depth, height,
-    heightPalletization) {
-        this.name = name;
-        this.isActive = isActive;
-        this.lines = lines;
-        this.tpi = tpi;
-        this.weight = weight; // in grams
-        this.width = width; // in inches
-        this.depth = depth; // in inches
-        this.height = height; // in inches
-        this.heightPalletization = heightPalletization; // in inches
+export function bottleManager() {
+    let bottles = [];
+    
+    function createBottle(name,
+        isActive,
+        lines = '',
+        tpi,
+        weight,
+        width,
+        depth,
+        height,
+        heightPalletization
+        ) {
+            const bottle = {};
+            bottle.name = name;
+            bottle.isActive = isActive;
+            bottle.lines = lines;
+            bottle.tpi = tpi;
+            bottle.weight = weight;
+            bottle.width = width;
+            bottle.depth = depth;
+            bottle.height = height;
+            bottle.heightPalletization = heightPalletization;
+            bottles.push(bottle);
+        }
 }
