@@ -24,10 +24,6 @@ body {
 
 }
 
-.sidebar {
-
-}
-
 .sidebar.child {
     padding: 12px;
     margin: 0;
@@ -102,6 +98,15 @@ body {
     width: 500px;
 
     text-align: center;
+    align-items: center;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#settingsBody > * {
+    width: 200px;
 }
 
 .data.child {
